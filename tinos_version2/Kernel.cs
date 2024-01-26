@@ -2,23 +2,36 @@
 using System.Collections.Generic;
 using System.Text;
 using Sys = Cosmos.System;
+using tin_version_2.Commands;
+using Cosmos.System.FileSystem;
 
-namespace tinos_version2
+namespace tin_version_2
 {
     public class Kernel : Sys.Kernel
     {
+        private CommandManager commandManger;
+        private CosmosVFS VFS;
 
         protected override void BeforeRun()
         {
-            Console.WriteLine("Cosmos booted successfully. Type a line of text to get it echoed back.");
+            this.commandManger = new CommandManager();
+            this.VFS = new CosmosVFS();
+            Sys.FileSystem.VFS.VFSManager.RegisterVFS(this.VFS);
+
+            Console.WriteLine("welcome to the new version of tin os");
+
         }
 
         protected override void Run()
         {
-            Console.Write("Input: ");
-            var input = Console.ReadLine();
-            Console.Write("Text typed: ");
-            Console.WriteLine(input);
+            string response;
+
+
+            response = this.commandManger.ProcessInput(Console.ReadLine());
+            Console.Write(">");
+
+            Console.WriteLine(response);
         }
     }
+}
 }
