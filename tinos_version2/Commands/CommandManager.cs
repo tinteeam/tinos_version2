@@ -17,7 +17,7 @@ namespace tin_version_2.Commands
             this.commands = new List<Command>(5);
             this.commands.Add(new Help("help"));
             this.commands.Add(new File("file"));
-            this.commands.Add(new Tinver("tinver"));
+            this.commands.Add(new TinVer("tinver"));
 
         }
 
