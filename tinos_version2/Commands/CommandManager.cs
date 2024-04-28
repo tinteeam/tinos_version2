@@ -5,7 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace tin_version_2.Commands
+
+namespace tinos_version2.Commands
 {
     public class CommandManager
     {
@@ -14,10 +15,12 @@ namespace tin_version_2.Commands
 
         public CommandManager()
         {
-            this.commands = new List<Command>(5);
+            this.commands = new List<Command>(15);
             this.commands.Add(new Help("help"));
             this.commands.Add(new File("file"));
             this.commands.Add(new TinVer("tinver"));
+            this.commands.Add(new Shutdown("shutdown"));
+            this.commands.Add(new Restart("restart"));
 
         }
 

@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using tin_version_2.Commands;
 
-namespace tin_version_2.Commands
+namespace tinos_version2.Commands
 {
     public class Help : Command
     {

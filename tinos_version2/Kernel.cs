@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 using Sys = Cosmos.System;
-using tin_version_2.Commands;
 using Cosmos.System.FileSystem;
+using tinos_version2.Commands;
 
-namespace tin_version_2
+namespace tinos_version2
 {
     public class Kernel : Sys.Kernel
     {

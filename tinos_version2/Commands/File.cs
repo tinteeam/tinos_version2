@@ -9,7 +9,7 @@ using Cosmos.System.FileSystem;
 
 
 
-namespace tin_version_2.Commands
+namespace tinos_version2.Commands
 {
     public class File : Command
     {
