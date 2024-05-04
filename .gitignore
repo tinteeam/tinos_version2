@@ -361,3 +361,9 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+#builder binary
+tinos-builder.exe
+tinos-builder.dll
+tinos-builder.deps.json
+tinos-builder.runtimeconfig.json

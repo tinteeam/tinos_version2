@@ -21,6 +21,10 @@ namespace tinos_version2.Commands
             this.commands.Add(new TinVer("tinver"));
             this.commands.Add(new Shutdown("shutdown"));
             this.commands.Add(new Restart("restart"));
+            this.commands.Add(new ListDisk("listdisk"));
+            this.commands.Add(new Format("format"));
+            this.commands.Add(new Clear("clear"));
+            this.commands.Add(new Changes("changes"));
 
         }
 

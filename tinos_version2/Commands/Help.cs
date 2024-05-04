@@ -13,9 +13,25 @@ namespace tinos_version2.Commands
         }
         public override string Execute(string[] args)
         {
-
-            string h_util = "welcome to the tin os help tool the only command is the help gui launch is coming soon new command is file command";
-            return h_util;
+            Console.WriteLine("=====================================================");
+            Console.WriteLine("welcome to the tin os help utility                  |");
+            Console.WriteLine("=====================================================");
+            Console.WriteLine("help - show help                                    |");
+            Console.WriteLine("=====================================================");
+            Console.WriteLine("tinver - show version                               |");
+            Console.WriteLine("=====================================================");
+            Console.WriteLine("file (non functional(system crash(cpu expection))) - create file, delete file ,create folder,delet folder");
+            Console.WriteLine("=====================================================");
+            Console.WriteLine("shutdown - acpi shutdown                            |");
+            Console.WriteLine("=====================================================");
+            Console.WriteLine("restart - restart cpu                               |");
+            Console.WriteLine("=====================================================");
+            Console.WriteLine("listdisk - list disk(does not list)                 |");
+            Console.WriteLine("=====================================================");
+            Console.WriteLine("format - formats disks(not implemented)             |");
+            Console.WriteLine("=====================================================");
+            Console.WriteLine("changes - change log in the os itself");
+            return "================================================================";
         }
     }
 }

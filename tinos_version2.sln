@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{
 		stale.yml = stale.yml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tinos-builder", "tinos-builder\tinos-builder.csproj", "{B9FC7D90-2396-4E38-BAFB-5C9CCEC68A8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +24,10 @@ Global
 		{FA363F20-B802-41DD-B842-9ABE86EA5D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA363F20-B802-41DD-B842-9ABE86EA5D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA363F20-B802-41DD-B842-9ABE86EA5D47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9FC7D90-2396-4E38-BAFB-5C9CCEC68A8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9FC7D90-2396-4E38-BAFB-5C9CCEC68A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9FC7D90-2396-4E38-BAFB-5C9CCEC68A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9FC7D90-2396-4E38-BAFB-5C9CCEC68A8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
