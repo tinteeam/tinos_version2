@@ -20,7 +20,7 @@ namespace tinos_version2.Commands
             Console.WriteLine("=====================================================");
             Console.WriteLine("tinver - show version                               |");
             Console.WriteLine("=====================================================");
-            Console.WriteLine("file (non functional(system crash(cpu expection))) - create file, delete file ,create folder,delet folder");
+            Console.WriteLine("file (non functional(system crash(cpu expection in debug)in debug)in debug) - create file, delete file ,create folder,delet folder");
             Console.WriteLine("=====================================================");
             Console.WriteLine("shutdown - acpi shutdown                            |");
             Console.WriteLine("=====================================================");
