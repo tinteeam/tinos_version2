@@ -367,3 +367,5 @@ tinos-builder.exe
 tinos-builder.dll
 tinos-builder.deps.json
 tinos-builder.runtimeconfig.json
+#not needed files!
+Commands/Install.cs

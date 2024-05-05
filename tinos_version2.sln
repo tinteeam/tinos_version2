@@ -5,14 +5,7 @@ VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tinos_version2", "tinos_version2\tinos_version2.csproj", "{FA363F20-B802-41DD-B842-9ABE86EA5D47}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{891DE78C-AF3A-499C-9190-CF433F113A19}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{7C4B5A7A-14EC-4EB4-A439-97231883174B}"
-	ProjectSection(SolutionItems) = preProject
-		stale.yml = stale.yml
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tinos-builder", "tinos-builder\tinos-builder.csproj", "{B9FC7D90-2396-4E38-BAFB-5C9CCEC68A8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tinos-builder", "tinos-builder\tinos-builder.csproj", "{B9FC7D90-2396-4E38-BAFB-5C9CCEC68A8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,9 +24,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{7C4B5A7A-14EC-4EB4-A439-97231883174B} = {891DE78C-AF3A-499C-9190-CF433F113A19}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ED0E1011-D01A-429D-967A-CFDD32A2EEF9}

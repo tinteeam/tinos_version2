@@ -31,6 +31,10 @@ namespace tinos_version2.Commands
             Console.WriteLine("format - formats disks(not implemented)             |");
             Console.WriteLine("=====================================================");
             Console.WriteLine("changes - change log in the os itself");
+            Console.WriteLine("=====================================================");
+            Console.WriteLine("kill - kill processes");
+            Console.WriteLine("=====================");
+            Console.WriteLine("sc - show,stop services");
             return "================================================================";
         }
     }
