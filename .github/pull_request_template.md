@@ -1,7 +1,8 @@
----
-name: template
-assignees: randomusert
----
+
+|name: template|
+|---|
+|assignees: randomusert|
+
 **the issue refferring to the PR**
 
 #2
