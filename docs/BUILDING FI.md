@@ -1,4 +1,4 @@
-# building
+# rakentaminen
 
 [Cosmos](https://github.com/cosmosos/cosmos)
 [Dotnet](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
@@ -7,7 +7,7 @@
 
 Asenna dotnet sdk 6(se kysyy adminia) ja sitten asenna cosmos os (käytä userkittiä)
 
-# rakkenna
+# rakenna
 
 Käytä Visual Studio, Dotnet SDK cli tai sitten Tinos-builder windowsilla.
 Komento kehote avattuna kirjoita `dotnet build` ja paina enter näppäintä ja odota. Se ottaa noin 1 minuutin rakentaa
