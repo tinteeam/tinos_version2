@@ -1,7 +1,9 @@
 # building
 
-#prerequisites
+# prerequisites
+
 [Cosmos](https://github.com/cosmosos/cosmos)
+
 [Dotnet](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 
 # install
