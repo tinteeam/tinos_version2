@@ -6,7 +6,9 @@ projects: ["tinteeam/tinos_version2"]
 assignees:
   - randomusert
 body:
-  
+  - type: markdown 
+    attributes:
+      label: please fill the report
   - type: textarea
     id: what-happened
     attributes:
@@ -16,7 +18,7 @@ body:
       value: "A bug happened!"
     validations:
       required: true
-  - type: dropdown
+  
    
   - type: textarea
     id: logs
