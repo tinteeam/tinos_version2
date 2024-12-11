@@ -6,7 +6,12 @@ projects: ["tinteeam/tinos_version2"]
 assignees:
   - randomusert
 body:
-  
+  - type: markdown
+  attributes:
+    value: "Thanks for taking the time to fill out this bug!"
+  - type: markdown
+  attributes:
+    value: "This is working now!"
   - type: textarea
     id: what-happened
     attributes:
