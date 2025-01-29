@@ -18,4 +18,4 @@ Ja sillä olet rakentanut/koonnut tinos ver2 onnistuneesti.
 
 # ongelmat
 
-Reportoi virheet ja ongelmat [issue tracker] (https: github.com/tinteeam/tinos_version2/issues)
+Reportoi virheet ja ongelmat [issue tracker](https://github.com/tinteeam/tinos_version2/issues)
