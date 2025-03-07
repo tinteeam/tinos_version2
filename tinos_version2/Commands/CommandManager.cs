@@ -24,10 +24,10 @@ namespace tinos_version2.Commands
             this.commands.Add(new ListDisk("listdisk"));
             this.commands.Add(new Format("format"));
             this.commands.Add(new Clear("clear"));
-            this.commands.Add(new Changes("changes"));
             this.commands.Add(new Kill("kill"));
             this.commands.Add(new Service("sc"));
             this.commands.Add(new PartInfo("partinfo"));
+            this.commands.Add(new Nano("nano"));
 
         }
 

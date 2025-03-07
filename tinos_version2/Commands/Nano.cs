@@ -3,18 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using tinos_version2.Applications.Editor;
+
 
 namespace tinos_version2.Commands
 {
-    public class Changes : Command
+    public class Nano : Command
     {
-        public Changes(string name) : base(name) { }
+        public Nano(string name) : base(name) { }
 
         public override string Execute(string[] args)
         {
-            Console.WriteLine("BUILD 2");
-            Console.WriteLine("Fixes and FIRST build PUBLIC release!");
+            tinos_version2.Applications.Editor.Editor.Edit();
             return "";
+
         }
+
     }
 }
