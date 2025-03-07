@@ -14,7 +14,7 @@ namespace tinos_version2
 
         protected override void BeforeRun()
         {
-            
+
             this.commandManger = new CommandManager();
             this.VFS = new CosmosVFS();
             Sys.FileSystem.VFS.VFSManager.RegisterVFS(this.VFS);
@@ -31,7 +31,7 @@ namespace tinos_version2
             Console.Write(">");
 
             response = this.commandManger.ProcessInput(Console.ReadLine());
-            
+
 
             Console.WriteLine(response);
         }
