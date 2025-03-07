@@ -57,7 +57,7 @@ namespace tinos_version2.Commands
                     return cmd.Execute(args.ToArray());
                 }
             }
-            return "the command that you typed isn't a the command that you did type is \"" + label + ".";
+            return "the command that you typed isn't a command. that you did type is \"" + label + ".";
         }
     }
 }
