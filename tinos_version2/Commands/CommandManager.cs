@@ -27,6 +27,7 @@ namespace tinos_version2.Commands
             this.commands.Add(new Changes("changes"));
             this.commands.Add(new Kill("kill"));
             this.commands.Add(new Service("sc"));
+            this.commands.Add(new PartInfo("partinfo"));
 
         }
 
@@ -57,7 +58,7 @@ namespace tinos_version2.Commands
                     return cmd.Execute(args.ToArray());
                 }
             }
-            return "the command that you typed isn't a the command that you did type is \"" + label + ".";
+            return "the command that you typed isn't a command. that you did type is \"" + label + ".";
         }
     }
 }
