@@ -2,7 +2,7 @@
 | build | supported |
 | ----- | --------- |
 | build 2| :x: |
-| 2.5   | :white_check_mark:                |
+| 2.5   | :x:                |
 | archive-1   | :x: |
 | 3.0   | :white_check_mark:                |
 
