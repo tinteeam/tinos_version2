@@ -33,8 +33,11 @@ namespace tinos_version2
 
             response = this.commandManger.ProcessInput(Console.ReadLine());
 
+            
 
             Console.WriteLine(response);
         }
+        
+        
     }
 }

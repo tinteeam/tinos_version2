@@ -28,6 +28,7 @@ namespace tinos_version2.Commands
             this.commands.Add(new Service("sc"));
             this.commands.Add(new PartInfo("partinfo"));
             this.commands.Add(new Nano("nano"));
+            this.commands.Add(new Calc("calc"));
 
         }
 
