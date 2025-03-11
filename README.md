@@ -7,3 +7,5 @@ commands like file doesn't work inside the debugger it causes the virtual cpu to
 UNICODE doesn't work as it just throws cpu expection
 
 ASCII doesn't work well at ALL as it just shows "?"
+
+you need to format The disk to see it in a vm. this is not a fixable issue since The partion does not exsist so it returns a empty string. so please format The disk before using any file system required commands.
