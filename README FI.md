@@ -1,3 +1,7 @@
+#keskeytys!!!!
+tarkista ongelma: [tinteeam/tinos_version2 #28](https://github.com/tinteeam/tinos_version2/issues/28)
+
+
 # tinos_version2
 
 [![Merkitse stale ongelmia ja pull requests](https://github.com/tinteeam/tinos_version2/actions/workflows/stale.yml/badge.svg?branch=master)](https://github.com/tinteeam/tinos_version2/actions/workflows/stale.yml)
